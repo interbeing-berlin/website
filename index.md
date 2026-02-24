@@ -3,7 +3,7 @@ layout: default
 title: null
 ---
 
-<article class="home-content">
+<article class="home-content" markdown="1">
 
 **What**
 Community rituals to reconnect with Life.
