@@ -1,0 +1,38 @@
+title: a church of interbeing
+description: Reconnecting to Self, Other, & the Whole in Dialogue & Ritual
+url: "https://interbeing.berlin"
+baseurl: ""
+
+# Contact
+email: info@interbeing.life
+instagram: church_of_interbeing
+opencollective: interbeing
+
+# Google Calendar
+google_calendar_id: info@interbeing.life
+
+# Behold Instagram widget
+# Sign up at behold.so, connect the church_of_interbeing account,
+# and paste your feed ID here:
+behold_feed_id: "YOUR_BEHOLD_FEED_ID"
+
+# Mailchimp
+# Go to Mailchimp → Audience → Signup forms → Embedded forms
+# and extract these values from the form action URL:
+mailchimp_u: "820cff8b6b848be8366293540"
+mailchimp_id: "80e73a95cc"
+mailchimp_region: "us22"
+
+# Build
+markdown: kramdown
+sass:
+  style: compressed
+plugins:
+  - jekyll-seo-tag
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE

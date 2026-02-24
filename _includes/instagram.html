@@ -1,0 +1,9 @@
+{% if site.behold_feed_id != "YOUR_BEHOLD_FEED_ID" %}
+<section class="instagram-feed">
+  <h2>From our community</h2>
+  <behold-widget feed-id="{{ site.behold_feed_id }}"></behold-widget>
+  <script src="https://w.behold.so/widget.js" type="module"></script>
+</section>
+{% else %}
+<!-- Instagram feed: set behold_feed_id in _config.yml after creating your Behold widget -->
+{% endif %}
