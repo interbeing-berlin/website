@@ -6,11 +6,12 @@
     <p class="site-tagline">{{ site.description }}</p>
     <nav class="site-nav" role="navigation" aria-label="Main navigation">
       <ul>
-        <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>🌿 About</a></li>
-        <li><a href="https://www.instagram.com/{{ site.instagram }}/" target="_blank" rel="noopener">📷 Instagram</a></li>
-        <li><a href="{{ '/email-list/' | relative_url }}" {% if page.url == '/email-list/' %}class="active"{% endif %}>✉️ Email list</a></li>
-        <li><a href="https://opencollective.com/{{ site.opencollective }}" target="_blank" rel="noopener">💸 Support</a></li>
-        <li><a href="{{ '/calendar/' | relative_url }}" {% if page.url == '/calendar/' %}class="active"{% endif %}>📆 Calendar</a></li>
+        <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+        <li><a href="{{ '/about/' | relative_url }}" {% if page.url == '/about/' %}class="active"{% endif %}>About</a></li>
+        <li><a href="https://www.instagram.com/{{ site.instagram }}/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="{{ '/email-list/' | relative_url }}" {% if page.url == '/email-list/' %}class="active"{% endif %}>Email list</a></li>
+        <li><a href="https://opencollective.com/{{ site.opencollective }}" target="_blank" rel="noopener">Support</a></li>
+        <li><a href="{{ '/calendar/' | relative_url }}" {% if page.url == '/calendar/' %}class="active"{% endif %}>Calendar</a></li>
       </ul>
     </nav>
   </div>
