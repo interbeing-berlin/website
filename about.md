@@ -27,8 +27,10 @@ The being lab is coordinated by Florencia Noriega and a team of volunteers.
 
 
 #### Chanting Evenings
-On the first Sunday of every month there is an evening of singing at the church.
+On the first Sunday of every month there is an evening of singing at the church, often following themes that reflect the cycle of the seasons. Coordination for Evening Chants is lead by Theresa Leisgang, Antonia Glugla, and Ronja Polzin. If you're interested participating in hosting and co-creating a chanting evening, get in touch!
+
 Invitations are posted in [updates telegram group](https://t.me/+4_DIFOg_CeFiN2M8).
+
 
 #### Morning Meditations
 Every Wednesday, Thursday & Friday, hosted by Nathan Vanderpool and others. 
