@@ -5,6 +5,11 @@ permalink: /about/
 ---
 
 
+## Mission & Vision
+
+As humans, we are sustained and animated by connection with ourselves, each other, and the wider wholes we are part of; by experiences of the sacred, the numinous, or the transcendent; and by community. In these times we need the sustenance of connection. With it, our capacity to care for ourselves, for each other, and for the life around us is empowered, and a doorway opens to a more beautiful world.
+
+
 ## Organization & Team
 
 ### Ecosystem

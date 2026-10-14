@@ -209,6 +209,27 @@ table.sched td { padding: 1rem 1.25rem; vertical-align: middle; }
   i { font-size: 16px; }
 }
 
+// ─── Partnership callout ─────────────────────────
+.partner-callout {
+  margin: 0.5rem 2.5rem 0;
+  border: 1px solid rgba(160,130,80,0.4);
+  background: rgba(248,243,232,0.6); padding: 2.5rem;
+  display: flex; align-items: center; justify-content: space-between; gap: 2rem;
+}
+.partner-eyebrow { font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: $gold-label; margin-bottom: 0.6rem; }
+.partner-heading { font-family: $font-serif; font-size: 1.8rem; font-weight: 300; color: #2a2010; line-height: 1.2; margin-bottom: 0.5rem; }
+.partner-sub { font-size: 15px; color: #5f5443; line-height: 1.7; max-width: 400px; }
+.partner-btn {
+  display: inline-flex; align-items: center; gap: 10px; flex-shrink: 0;
+  background: $gold; color: #fff;
+  font-size: 14px; letter-spacing: 0.13em; text-transform: uppercase;
+  padding: 0.85rem 1.75rem; text-decoration: none; font-weight: 500;
+  transition: opacity 0.25s, transform 0.15s; white-space: nowrap;
+
+  &:hover { opacity: 0.88; transform: translateY(-1px); }
+  i { font-size: 16px; }
+}
+
 // ─── Location ────────────────────────────────────
 .location-section {
   padding: 4rem 2.5rem;
@@ -413,8 +434,8 @@ table.sched td { padding: 1rem 1.25rem; vertical-align: middle; }
   table.sched td { display: block; padding: 0.3rem 0; }
   table.sched tr { display: block; padding: 0.9rem 0; border-bottom: 0.5px solid rgba(160,130,80,0.1); }
   .td-location { text-align: left; }
-  .telegram-callout, .donate-callout { flex-direction: column; margin: 0 1.25rem; }
-  .donate-callout { margin-top: 0.5rem; }
+  .telegram-callout, .donate-callout, .partner-callout { flex-direction: column; margin: 0 1.25rem; }
+  .donate-callout, .partner-callout { margin-top: 0.5rem; }
   .location-section { grid-template-columns: 1fr; gap: 2rem; padding: 2.5rem 1.25rem; }
   .instagram-feed { padding: 2.5rem 1.25rem 1.5rem; }
   .contact-section { padding: 2.5rem 1.25rem; }
