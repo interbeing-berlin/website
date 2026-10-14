@@ -1,0 +1,193 @@
+---
+layout: default
+title: null
+---
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css">
+
+<div class="hero-wrap">
+  <div class="hero-bg" style="background-image: url('{{ '/assets/images/ChurchHeroBild.jpg' | relative_url }}')" role="img" aria-label="Community gathering at Genezarethkirche"></div>
+  <div class="hero-overlay" aria-hidden="true"></div>
+  <div class="hero-overlay-vignette" aria-hidden="true"></div>
+  <div class="hero-inner hero">
+    <img src="{{ '/assets/images/coilogo.png' | relative_url }}" alt="Church of Interbeing" class="hero-logo">
+    <p class="hero-eyebrow">Berlin · Neukölln</p>
+    <h1>Reconnecting to Self,<br><em>Other, &amp; the Whole</em></h1>
+    <p class="hero-sub">Community rituals of meditation, song, movement and dialogue — in a place of reverence, inquiry and belonging.</p>
+    <a class="hero-cta" href="#schedule">
+      <i class="ti ti-calendar" aria-hidden="true"></i>
+      View upcoming gatherings
+    </a>
+  </div>
+</div>
+
+<div class="ornament" aria-hidden="true">✦ ✦ ✦</div>
+
+<div class="pillars">
+  <div class="pillar">
+    <p class="pillar-label">What</p>
+    <h2 class="pillar-heading">Sacred community<br>ritual</h2>
+    <p>Weekly gatherings to reconnect with the living pulse of life — in ourselves, in each other, and in the wider whole.</p>
+  </div>
+  <div class="pillar">
+    <p class="pillar-label">How</p>
+    <h2 class="pillar-heading">Meditate, sing,<br>move, dialogue</h2>
+    <p>Each gathering weaves contemplative practice with embodied presence, communal song and spacious conversation.</p>
+  </div>
+  <div class="pillar">
+    <p class="pillar-label">Where</p>
+    <h2 class="pillar-heading">Genezarethkirche,<br>Schillerkiez</h2>
+    <p>A beloved community church in Neukölln, Berlin — and other places across the city, Europe and the world.</p>
+  </div>
+</div>
+
+{% comment %}
+Hidden until we have more community quotes.
+<div class="voice-section">
+  <img src="{{ '/assets/images/nathan.png' | relative_url }}" alt="Nathan Vanderpool" class="voice-photo">
+  <div>
+    <span class="voice-quote-label">A community member speaks</span>
+    <p class="voice-quote">"There is a hunger for genuine community, for ritual, for something sacred — it doesn't go away even for folks who have left religion behind. Church of Interbeing is for anyone who wants to reconnect with what actually matters: showing up fully, being seen, and feeling part of something larger than themselves. That's why we gather."</p>
+    <p class="voice-attribution"><strong>Nathan Vanderpool</strong> — musician &amp; host</p>
+  </div>
+</div>
+{% endcomment %}
+
+<div class="schedule-section" id="schedule">
+  <span class="section-label">Regular gatherings</span>
+  <div class="schedule-table-wrap">
+    <table class="sched">
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>Gathering</th>
+          <th>Time</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for gathering in site.data.schedule %}
+        <tr>
+          <td class="td-day">{{ gathering.day }}</td>
+          <td class="td-event">{{ gathering.event }}</td>
+          <td class="td-time">{{ gathering.time }}</td>
+          <td class="td-location"><a href="{{ gathering.maps_url }}" target="_blank" rel="noopener">{{ gathering.location }}</a></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="telegram-callout">
+  <div>
+    <p class="telegram-eyebrow">Stay connected</p>
+    <h2 class="telegram-heading">We organise on Telegram</h2>
+    <p class="telegram-sub">Upcoming events, last-minute changes, and the heartbeat of the community — all live in our Telegram group. It's the best way to stay in the loop between gatherings.</p>
+  </div>
+  <a class="telegram-btn" href="{{ site.telegram }}" target="_blank" rel="noopener">
+    <i class="ti ti-brand-telegram" aria-hidden="true"></i>
+    Join on Telegram
+  </a>
+</div>
+
+<div class="donate-callout">
+  <div>
+    <p class="donate-eyebrow">Keep it alive</p>
+    <h2 class="donate-heading">Support the community</h2>
+    <p class="donate-sub">Church of Interbeing runs on love and donations. Your support keeps the space open, the candles lit, and the gatherings free for those who need them most.</p>
+  </div>
+  <a class="donate-btn" href="https://opencollective.com/{{ site.opencollective }}" target="_blank" rel="noopener">
+    <i class="ti ti-heart" aria-hidden="true"></i>
+    Donate
+  </a>
+</div>
+
+<div class="location-section">
+  <div class="location-text">
+    <span class="section-label">Find us</span>
+    <h2>Two spaces in<br>Schillerkiez</h2>
+    <p>Our gatherings take place across two warm community spaces in the heart of Neukölln.</p>
+    <div class="location-venues">
+      <div class="venue-item">
+        <i class="ti ti-building-church" aria-hidden="true"></i>
+        <div>
+          <span class="venue-name">Genezarethkirche</span>
+          <span class="venue-addr"><a href="https://www.google.com/maps/search/?api=1&query=Genezarethkirche+Herrfurthplatz+14+Berlin" target="_blank" rel="noopener">Herrfurthplatz, 12049 Berlin</a></span>
+        </div>
+      </div>
+      <div class="venue-item">
+        <i class="ti ti-door" aria-hidden="true"></i>
+        <div>
+          <span class="venue-name">Gemeindesaal</span>
+          <span class="venue-addr"><a href="https://www.google.com/maps/search/?api=1&query=Schillerpromenade+16+12049+Berlin" target="_blank" rel="noopener">Schillerpromenade 16, 12049 Berlin</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div id="coi-map" class="location-map"></div>
+    <div class="map-links">
+      <a href="https://www.google.com/maps/search/?api=1&query=Genezarethkirche+Herrfurthplatz+Berlin" target="_blank" rel="noopener">
+        <span class="map-dot"></span>
+        Genezarethkirche · Herrfurthplatz
+      </a>
+      <a href="https://www.google.com/maps/search/?api=1&query=Schillerpromenade+16+Berlin" target="_blank" rel="noopener">
+        <span class="map-dot"></span>
+        Gemeindesaal · Schillerpromenade 16
+      </a>
+    </div>
+  </div>
+</div>
+
+{% include instagram.html %}
+
+<div class="contact-section">
+  <h2>Come as you are</h2>
+  <p>All backgrounds, beliefs and seekers welcome. Reach out with questions or to join our community.</p>
+  <div class="contact-links">
+    <a class="contact-link link-email" href="mailto:{{ site.email }}">
+      <i class="ti ti-mail" aria-hidden="true"></i>
+      {{ site.email }}
+    </a>
+    <a class="contact-link link-instagram" href="https://www.instagram.com/{{ site.instagram }}/" target="_blank" rel="noopener">
+      <i class="ti ti-brand-instagram" aria-hidden="true"></i>
+      Instagram
+    </a>
+    <a class="contact-link link-email-list" href="{{ '/email-list/' | relative_url }}">
+      <i class="ti ti-mail-forward" aria-hidden="true"></i>
+      Email list
+    </a>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js"></script>
+<script>
+  var gURL = 'https://www.google.com/maps/search/?api=1&query=Genezarethkirche+Herrfurthplatz+14+Berlin';
+  var sURL = 'https://www.google.com/maps/search/?api=1&query=Schillerpromenade+16+12049+Berlin';
+
+  var map = L.map('coi-map', { zoomControl: true, scrollWheelZoom: false });
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    maxZoom: 19
+  }).addTo(map);
+
+  var redIcon = L.icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
+    shadowUrl: 'https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/images/marker-shadow.png',
+    iconSize: [25, 41], iconAnchor: [12, 41],
+    popupAnchor: [1, -34], shadowSize: [41, 41]
+  });
+
+  var m1 = L.marker([52.47716783870034, 13.422088078245036], {icon: redIcon})
+    .addTo(map)
+    .bindPopup('<b>Genezarethkirche</b><br>Herrfurthplatz 14, 12049 Berlin<br><a href="' + gURL + '" target="_blank">Open in Google Maps ↗</a>');
+
+  var m2 = L.marker([52.47445495125505, 13.422582895008977], {icon: redIcon})
+    .addTo(map)
+    .bindPopup('<b>Gemeindesaal</b><br>Schillerpromenade 16, 12049 Berlin<br><a href="' + sURL + '" target="_blank">Open in Google Maps ↗</a>');
+
+  var group = L.featureGroup([m1, m2]);
+  map.fitBounds(group.getBounds().pad(0.35));
+</script>
