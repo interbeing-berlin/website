@@ -5,6 +5,24 @@ permalink: /about/
 ---
 
 
+## Mission & Vision
+
+### Mission
+
+To create spaces and experiences of sacredness, reconnection, and community that cultivate wisdom, love, and wellbeing, and empower care for the world.
+
+### Vision
+
+Our vision is for every human to have the opportunity to gather regularly in remembrance of our connection to all the parts of ourselves, to each other, and to all of life. Being in sacred space together is part of our human heritage. Through small and courageous experiments, we aim to re-open the doorway to collective remembering of our capacity for ceremony, celebration, and service, honouring both our individuality and our commonality as fellow humans and parts of planetary life.
+
+We envision the church of interbeing project in Berlin as an example of deep, regenerative community ritual — one that empowers participants to know themselves, connect with each other, and be a force of flourishing in this city and beyond.
+
+We envision a project in which everyone who contributes to it is learning and growing, supported in their challenges and breakthroughs. May each of us be inspired and nourished even as we are inspiring and nourishing others.
+
+We envision tears, laughter, joy, awe, reverence, insight, love, and forms of connection that can transform the world.
+
+Read more in the [project constitution](https://interbeings.notion.site/Constitution-v0-1-ec33ab7d779043948db524ced9d6041a?pvs=74).
+
 ## Organization & Team
 
 ### Ecosystem
@@ -50,12 +68,11 @@ The council meets monthly, and is responsible for high-level decision making, st
 Current council members:<br>
 Florencia Noriega<br>
 Sanya Manzoor<br>
-Adam McKenty<br>
+Adam McKenty<br>Alex Popiak<br>
 
 #### Core stewards
 The core stewards each care for a particular domain of the project's operations, and collectively hold the operational responsibility for whatever doesn't fall into these domains. Stewards are each paid a small stipend (between 200 and 400 euros monthly).
 
-Finance Steward - Michaela Tomasin<br>
 Hosting Steward - Nele Hiller<br>
 Community & Team Steward - Antonia Glugla<br>
 Partnerships & Communications Steward - Sanya Manzoor<br>

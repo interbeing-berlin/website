@@ -2,6 +2,12 @@
 
 Website for a Church of Interbeing, Berlin. Built with [Jekyll](https://jekyllrb.com/) and hosted on GitHub Pages.
 
+BUNDLE_GEMFILE=Gemfile.local bundle exec jekyll serve
+
+
+
+
+
 ## Setup
 
 ### 1. Configure integrations
