@@ -27,7 +27,7 @@ title: null
   <div class="pillar">
     <p class="pillar-label">What</p>
     <h2 class="pillar-heading">Sacred community<br>ritual</h2>
-    <p>Weekly gatherings to reconnect with the living pulse of life — in ourselves, in each other, and in the wider whole.</p>
+    <p>Weekly gatherings to reconnect with ourselves, each other, and the wider wholes we are part of.</p>
   </div>
   <div class="pillar">
     <p class="pillar-label">How</p>
@@ -83,7 +83,7 @@ Hidden until we have more community quotes.
   <div>
     <p class="telegram-eyebrow">Stay connected</p>
     <h2 class="telegram-heading">We organise on Telegram</h2>
-    <p class="telegram-sub">Upcoming events, last-minute changes, and the heartbeat of the community — all live in our Telegram group. It's the best way to stay in the loop between gatherings.</p>
+    <p class="telegram-sub">Upcoming events, last-minute changes, and links to community conversation space all live in our Telegram group. It's the best way to stay in the loop between events.</p>
   </div>
   <a class="telegram-btn" href="{{ site.telegram }}" target="_blank" rel="noopener">
     <i class="ti ti-brand-telegram" aria-hidden="true"></i>
@@ -93,9 +93,9 @@ Hidden until we have more community quotes.
 
 <div class="donate-callout">
   <div>
-    <p class="donate-eyebrow">Keep it alive</p>
+    <p class="donate-eyebrow">Keep it flourishing</p>
     <h2 class="donate-heading">Support the community</h2>
-    <p class="donate-sub">Church of Interbeing runs on love and donations. Your support keeps the space open, the candles lit, and the gatherings free for those who need them most.</p>
+    <p class="donate-sub">Church of Interbeing runs on love and donations. Your support keeps the project alive and services accessible free for those who need them.</p>
   </div>
   <a class="donate-btn" href="https://opencollective.com/{{ site.opencollective }}" target="_blank" rel="noopener">
     <i class="ti ti-heart" aria-hidden="true"></i>
@@ -107,7 +107,7 @@ Hidden until we have more community quotes.
   <div>
     <p class="partner-eyebrow">In partnership</p>
     <h2 class="partner-heading">Hosted at the Genezarethkirche</h2>
-    <p class="partner-sub">The Church of Interbeing exists in partnership with the stewards of the Genezarethkirche, who since early 2022 have offered this beautiful space for us to explore new forms of community ritual.</p>
+    <p class="partner-sub">The Church of Interbeing exists in partnership with Startbahn, the organization that stewards the Genezarethkirche, who since early 2022 has generously offered this beautiful space for us to explore new forms of community ritual.</p>
   </div>
   <a class="partner-btn" href="https://startbahn.berlin" target="_blank" rel="noopener">
     <i class="ti ti-building-church" aria-hidden="true"></i>
@@ -132,7 +132,7 @@ Hidden until we have more community quotes.
         <i class="ti ti-door" aria-hidden="true"></i>
         <div>
           <span class="venue-name">Gemeindesaal</span>
-          <span class="venue-addr"><a href="https://www.google.com/maps/search/?api=1&query=Schillerpromenade+16+12049+Berlin" target="_blank" rel="noopener">Schillerpromenade 16, 12049 Berlin</a></span>
+          <span class="venue-addr"><a href="https://www.google.com/maps/search/?api=1&query=Schillerpromenade+17+12049+Berlin" target="_blank" rel="noopener">Schillerpromenade 17, 12049 Berlin</a></span>
         </div>
       </div>
     </div>
@@ -144,9 +144,9 @@ Hidden until we have more community quotes.
         <span class="map-dot"></span>
         Genezarethkirche · Herrfurthplatz
       </a>
-      <a href="https://www.google.com/maps/search/?api=1&query=Schillerpromenade+16+Berlin" target="_blank" rel="noopener">
+      <a href="https://www.google.com/maps/search/?api=1&query=Schillerpromenade+17+Berlin" target="_blank" rel="noopener">
         <span class="map-dot"></span>
-        Gemeindesaal · Schillerpromenade 16
+        Gemeindesaal · Schillerpromenade 17
       </a>
     </div>
   </div>
@@ -174,7 +174,7 @@ Hidden until we have more community quotes.
 <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js"></script>
 <script>
   var gURL = 'https://www.google.com/maps/search/?api=1&query=Genezarethkirche+Herrfurthplatz+14+Berlin';
-  var sURL = 'https://www.google.com/maps/search/?api=1&query=Schillerpromenade+16+12049+Berlin';
+  var sURL = 'https://www.google.com/maps/search/?api=1&query=Schillerpromenade+17+12049+Berlin';
 
   var map = L.map('coi-map', { zoomControl: true, scrollWheelZoom: false });
 
@@ -196,7 +196,7 @@ Hidden until we have more community quotes.
 
   var m2 = L.marker([52.47445495125505, 13.422582895008977], {icon: redIcon})
     .addTo(map)
-    .bindPopup('<b>Gemeindesaal</b><br>Schillerpromenade 16, 12049 Berlin<br><a href="' + sURL + '" target="_blank">Open in Google Maps ↗</a>');
+    .bindPopup('<b>Gemeindesaal</b><br>Schillerpromenade 17, 12049 Berlin<br><a href="' + sURL + '" target="_blank">Open in Google Maps ↗</a>');
 
   var group = L.featureGroup([m1, m2]);
   map.fitBounds(group.getBounds().pad(0.35));
