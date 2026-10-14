@@ -45,13 +45,13 @@ The being lab is coordinated by Florencia Noriega and a team of volunteers.
 
 
 #### Chanting Evenings
-On the first Sunday of every month there is an evening of singing at the church, often following themes that reflect the cycle of the seasons. Coordination for Evening Chants is lead by Theresa Leisgang, Antonia Glugla, and Ronja Polzin. If you're interested participating in hosting and co-creating a chanting evening, get in touch!
+On the first Sunday of every month there is an evening of singing at the church, often following themes that reflect the cycle of the seasons. Coordination for Evening Chants is lead by Antonia Glugla and Ronja Polzin. If you're interested participating in hosting and co-creating a chanting evening, get in touch!
 
 Invitations are posted in [updates telegram group](https://t.me/+4_DIFOg_CeFiN2M8).
 
 
-#### Morning Meditations
-Every Wednesday, Thursday & Friday, hosted by Nathan Vanderpool and others. 
+#### Morning Practice
+Every Thursday, hosted by Nathan Vanderpool and others. 
 7:30am - 9am @ Genezareth Kirche
 Details and invitations in [this group](https://t.me/+uJjwgttNXygzMDgy). 
 
@@ -81,9 +81,9 @@ Partnerships & Communications Steward - Sanya Manzoor<br>
 
 
 #### Conflict Awareness Team
-The CAT is responsible for handling conflicts and any violations of the Church of Interbeing [Code of Conduct](https://interbeings.notion.site/Code-of-Conduct-v0-3-Public-967171a6813342fcb7ce602fbcf9d526). The Conflict Awareness Team lead is Carolin Goethel. 
+The CAT is responsible for handling conflicts and any violations of the Church of Interbeing [Code of Conduct](https://interbeings.notion.site/Code-of-Conduct-v0-3-Public-967171a6813342fcb7ce602fbcf9d526). 
 
-If you've witnessed or been afffected by something that might be a violation of the code of conduct, or if there's a conflict that needs tending, you can report it (optionally anonymously) through the [reporting form](https://docs.google.com/forms/d/e/1FAIpQLSeyq_N1fvlCTSbOmFryz13rjk-8fAUMZSCPVbERF3NjDz-cXQ/viewform).
+If you've witnessed or been affected by something that might be a violation of the code of conduct, or if there's a conflict that needs tending, you can report it (optionally anonymously) through the [reporting form](https://docs.google.com/forms/d/e/1FAIpQLSeyq_N1fvlCTSbOmFryz13rjk-8fAUMZSCPVbERF3NjDz-cXQ/viewform).
 
 ### Documents
 [Constitution](https://interbeings.notion.site/Constitution-v0-1-ec33ab7d779043948db524ced9d6041a?pvs=74)<br>
