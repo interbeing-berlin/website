@@ -85,6 +85,13 @@ The CAT is responsible for handling conflicts and any violations of the Church o
 
 If you've witnessed or been affected by something that might be a violation of the code of conduct, or if there's a conflict that needs tending, you can report it (optionally anonymously) through the [reporting form](https://docs.google.com/forms/d/e/1FAIpQLSeyq_N1fvlCTSbOmFryz13rjk-8fAUMZSCPVbERF3NjDz-cXQ/viewform).
 
+Conflict Awareness Team members:<br>
+Bihter Kartheuser<br>
+Sarah Nepu Fröhlingsdorf<br>
+Martina Pesce<br>
+Carolin Goethel<br>
+
+
 ### Documents
 [Constitution](https://interbeings.notion.site/Constitution-v0-1-ec33ab7d779043948db524ced9d6041a?pvs=74)<br>
 [Code of Conduct](https://interbeings.notion.site/Code-of-Conduct-v0-3-Public-967171a6813342fcb7ce602fbcf9d526) <br>
